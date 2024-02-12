@@ -1,36 +1,76 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li {
+nav{
+  
+    width: 100%;
+    display: inline-block;
+    justify-content: space-between;
+    
+    font-size: 1.1em;
+    
+    
+    
+  }
+  nav ul {
+    display: flex;
+    
+   
+    background: #e0e0e0;
+    justify-content: space-around;
+    align-items: left;
+  }
+  nav li{
+    line-height: 50px;
+    list-style: none;
+    font-size: 1.1em;
+    height: 50px;
+  }
+  
+  
+  
+  .LeftCol{
+    margin-top: 5%;
+    width: 50%;
+    float: left;
+  }
+  .RightCol{
+    margin-top: 5%;
+    width: 50%;
     float: right;
-    border: 1px solid #bbb;
-    border-radius: 15px;
-    margin: 1%;
-}
-
-    li:first-child {
-        float: left;
-        border-right: none;
-        padding: 14px 16px;
-        text-align: center;
+  }
+  
+  .ProfileBox{
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: #f4f4f4;
+    margin-left: 7%;
+    padding: 1%;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+    .EducationBox{
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: #f4f4f4;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 1%;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
     }
-
-    li a {
-        display: block;
-        color: #495054;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-
-        li a:hover:not(.active) {
-            background-color: #111;
-        }
-
-.active {
-    background-color: #04AA6D;
-}
+  
+  .NameBranding{
+    font-size: 1.3em;
+  }
+  .EducationBranding{
+    font-size: 1.5em;
+  }
+  
+  .ProfileDetails{
+    padding: 5px;
+  }
+  
+  .row{
+    display: inline;
+    
+  }
+  
