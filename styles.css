@@ -42,18 +42,19 @@ nav{
   }
   
     .EducationBox{
+    padding: 5%;
     border-radius: 8px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     background: #f4f4f4;
     margin-left: 7%;
     margin-right: 7%;
-    padding: 1%;
+    
     text-align: left;
     font-family: "Times New Roman", Times, serif;
     }
   .ContactInfo{
     font-style: italic;
-    font-size: .9em;
+    font-size: 0.9em;
   }
   .NameBranding{
     font-weight: bold;
@@ -63,6 +64,7 @@ nav{
     font-size: 1.3em;
   }
   .SkillsBranding{
+    padding: 5%;
     font-size: 1.3em;
   }
   .ProfileDetails{
